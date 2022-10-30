@@ -571,6 +571,12 @@ footer > * {
 	transition: 300ms;
 }
 
+@media only screen and (min-width: 1600px) {
+	footer > * {
+		padding: var(--sp-1);
+	}
+}
+
 footer > * > svg {
 	fill: var(--clr-secondary);
 }
