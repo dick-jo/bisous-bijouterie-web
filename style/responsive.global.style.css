@@ -1,0 +1,69 @@
+@media only screen and (min-width: 1600px) {
+	:root {
+		--sp-01: var(--sp-large-01);
+		--sp-1: var(--sp-large-1);
+		--sp-2: var(--sp-large-2);
+		--sp-3: var(--sp-large-3);
+		--sp-4: var(--sp-large-4);
+		--sp-5: var(--sp-large-5);
+		--sp-6: var(--sp-large-6);
+		--sp-7: var(--sp-large-7);
+		--sp-8: var(--sp-large-8);
+		--sp-9: var(--sp-large-9);
+		--sp-10: var(--sp-large-10);
+		--sp-11: var(--sp-large-11);
+		--sp-12: var(--sp-large-12);
+	}
+
+	:root {
+		--fs-00: var(--fs-large-00);
+		--fs-01: var(--fs-large-01);
+		--fs-1: var(--fs-large-1);
+		--fs-2: var(--fs-large-2);
+		--fs-3: var(--fs-large-3);
+		--fs-4: var(--fs-large-4);
+		--fs-5: var(--fs-large-5);
+		--fs-6: var(--fs-large-6);
+		--fs-7: var(--fs-large-7);
+		--fs-8: var(--fs-large-8);
+		--fs-9: var(--fs-large-9);
+		--fs-10: var(--fs-large-10);
+		--fs-11: var(--fs-large-11);
+		--fs-12: var(--fs-large-12);
+	}
+}
+
+@media only screen and (max-width: 880px) {
+	:root {
+		--sp-01: var(--sp-small-01);
+		--sp-1: var(--sp-small-1);
+		--sp-2: var(--sp-small-2);
+		--sp-3: var(--sp-small-3);
+		--sp-4: var(--sp-small-4);
+		--sp-5: var(--sp-small-5);
+		--sp-6: var(--sp-small-6);
+		--sp-7: var(--sp-small-7);
+		--sp-8: var(--sp-small-8);
+		--sp-9: var(--sp-small-9);
+		--sp-10: var(--sp-small-10);
+		--sp-11: var(--sp-small-11);
+		--sp-12: var(--sp-small-12);
+	}
+
+	:root {
+		--fs-00: var(--fs-small-00);
+		--fs-01: var(--fs-small-01);
+		--fs-1: var(--fs-small-1);
+		--fs-2: var(--fs-small-2);
+		--fs-3: var(--fs-small-3);
+		--fs-4: var(--fs-small-4);
+		--fs-5: var(--fs-small-5);
+		--fs-6: var(--fs-small-6);
+		--fs-7: var(--fs-small-7);
+		--fs-8: var(--fs-small-8);
+		--fs-9: var(--fs-small-9);
+		--fs-10: var(--fs-small-10);
+		--fs-11: var(--fs-small-11);
+		--fs-12: var(--fs-small-12);
+	}
+}

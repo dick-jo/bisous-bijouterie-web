@@ -1,0 +1,28 @@
+{
+	"name": "bisou-bijouterie-web",
+	"version": "1.0.0",
+	"description": "Homepage for Bisou's Bijouterie, a Fumo inspired NFT art collection",
+	"main": "index.js",
+	"scripts": {
+		"start": "http-server -p 8080 -c-1",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"tokens-build": "node style-dictionary.build.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dick-jo/bisous-bijouterie-web.git"
+	},
+	"keywords": [
+		"nft"
+	],
+	"author": "three",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/dick-jo/bisous-bijouterie-web/issues"
+	},
+	"homepage": "https://github.com/dick-jo/bisous-bijouterie-web#readme",
+	"devDependencies": {
+		"http-server": "^14.1.1",
+		"style-dictionary": "^3.7.1"
+	}
+}

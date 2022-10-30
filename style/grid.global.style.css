@@ -1,0 +1,31 @@
+:root {
+	--grid-12: 12;
+	--grid-11: 11;
+	--grid-10: 10;
+	--grid-9: 9;
+	--grid-8: 8;
+	--grid-7: 7;
+	--grid-6: 6;
+	--grid-5: 5;
+	--grid-4: 4;
+	--grid-3: 3;
+	--grid-2: 2;
+	--grid-1: 1;
+}
+
+@media only screen and (max-width: 880px) {
+	:root {
+		--grid-12: 12;
+		--grid-11: 12;
+		--grid-10: 12;
+		--grid-9: 12;
+		--grid-8: 12;
+		--grid-7: 12;
+		--grid-6: 12;
+		--grid-5: 12;
+		--grid-4: 12;
+		--grid-3: 12;
+		--grid-2: 12;
+		--grid-1: 12;
+	}
+}

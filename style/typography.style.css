@@ -1,0 +1,64 @@
+h1 {
+	font-family: 'Uphoria-Endeavour', serif;
+	font-size: var(--fs-12);
+	line-height: var(--fs-9);
+	font-weight: var(--fw-6);
+	color: var(--clr-primary);
+}
+
+* {
+	font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+	font-size: var(--fs-2);
+	font-weight: var(--fw-8);
+	color: var(--clr-secondary);
+}
+
+h2[data-size='small'] {
+	font-size: var(--fs-1);
+}
+
+p {
+	font-size: var(--fs-2);
+	line-height: var(--fs-3);
+	font-weight: var(--fw-4);
+	color: var(--clr-secondary);
+}
+
+p[data-size='small'] {
+	font-size: var(--fs-1);
+}
+
+a {
+	color: var(--clr-secondary);
+	font-weight: var(--fw-8);
+	text-decoration: none;
+}
+
+a[data-size='small'] {
+	font-size: var(--fs-1);
+}
+
+button {
+	font-size: var(--fs-2);
+	font-weight: var(--fw-8);
+}
+
+span.em {
+	position: relative;
+	font-weight: var(--fw-8);
+}
+
+span.em::before {
+	content: '';
+	position: absolute;
+	top: calc(var(--sp-1) + var(--sp-01));
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: var(--clr-primary-light);
+	border-radius: var(--br-4);
+	z-index: -1;
+}

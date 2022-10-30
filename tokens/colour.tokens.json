@@ -1,0 +1,14 @@
+{
+	"clr": {
+		"type": "color",
+		"primary": { "value": "#E195D5", "type": "color" },
+		"primary-light": { "value": "#FFF0FD", "type": "colour" },
+		"primary-mid": { "value": "#FAE6F5", "type": "colour" },
+		"secondary": { "value": "#AC99F6", "type": "colour" },
+		"secondary-light": { "value": "#F8F6FF", "type": "colour" },
+		"secondary-mid": { "value": "#E7DCFD", "type": "colour" },
+		"surface": { "value": "#FEFFF4", "type": "colour" },
+		"bg": { "value": "#F8FAE9", "type": "colour" },
+		"bg-mid": { "value": "#F0F2E1", "type": "colour" }
+	}
+}
