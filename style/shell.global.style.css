@@ -39,7 +39,7 @@ body::before {
 main {
 	width: 100%;
 	max-width: min(960px, 94vw);
-	padding: 0 var(--sp-5) var(--sp-5) var(--sp-5);
+	padding: 0 var(--sp-5) var(--sp-6) var(--sp-5);
 	display: flex;
 	flex-direction: column;
 	gap: var(--sp-5);
@@ -58,7 +58,8 @@ main {
 /* Header */
 /* ------------------------------------------------------------ */
 header {
-	min-height: calc(var(--sp-12) * 2);
+	min-height: calc(var(--sp-9) * 4);
+	padding-top: var(--sp-5);
 	display: grid;
 	grid-template-columns: repeat(var(--grid-12), minmax(0, 1fr));
 	align-items: center;
@@ -66,13 +67,33 @@ header {
 }
 
 header > * {
+	height: 100%;
 	grid-column: span 4;
+	display: flex;
+	align-items: center;
+}
+
+header > #masthead-left,
+header > #masthead-right {
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+header > #masthead-left {
+	background-image: url(../assets/img/masthead-1.webp);
+	background-position: right;
+}
+
+header > #masthead-right {
+	background-image: url(../assets/img/masthead-2.webp);
+	background-repeat: no-repeat;
 }
 
 /* ------------------------------------------------------------ */
 /* Sections */
 /* ------------------------------------------------------------ */
 section {
+	position: relative;
 	padding: var(--sp-10) var(--sp-10) var(--sp-1) var(--sp-10);
 	display: flex;
 	flex-direction: column;
@@ -459,6 +480,7 @@ section .content .row > .body {
 .title-badge {
 	position: absolute;
 	top: calc(var(--sp-2) * -1);
+	margin-bottom: var(--sp-2);
 	padding: var(--sp-1) var(--sp-3);
 	border: var(--ln-primary-mid-1);
 	border-radius: var(--br-4);
@@ -475,11 +497,65 @@ section > .content:hover .title-badge {
 }
 
 /* ------------------------------------------------------------ */
+/* Visint
+/* ------------------------------------------------------------ */
+#visint-edge-left,
+#visint-edge-right {
+	width: calc(var(--sp-7) * 2);
+	height: calc(var(--sp-7) * 2);
+	position: absolute;
+	top: calc(50% - var(--sp-7));
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: var(--ln-secondary-mid-1);
+	border-radius: var(--br-12);
+	background: var(--clr-secondary-light);
+}
+
+#visint-edge-left {
+	left: calc((var(--sp-11) * 2) * -1);
+}
+
+#visint-edge-right {
+	right: calc((var(--sp-11) * 2) * -1);
+}
+
+@media only screen and (max-width: 880px) {
+	#visint-edge-left,
+	#visint-edge-right {
+		display: none;
+	}
+}
+
+#visint-edge-left > *,
+#visint-edge-right > * {
+	width: 175%;
+	max-width: 175%;
+	height: 175%;
+	max-height: 175%;
+	transform: translateY(var(--sp-1));
+	z-index: 8 !important;
+}
+
+#visint-edge-left::before,
+#visint-edge-right::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	border-radius: var(--br-12);
+	outline: var(--ln-secondary-light-24);
+	opacity: 0.5;
+}
+
+/* ------------------------------------------------------------ */
 /* Footer
 /* ------------------------------------------------------------ */
 footer {
 	height: var(--sp-9);
-	margin-bottom: var(--sp-5);
 	display: flex;
 	align-items: center;
 	justify-content: center;

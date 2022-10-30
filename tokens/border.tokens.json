@@ -18,7 +18,8 @@
 		},
 		"secondary": {
 			"light": {
-				"1": { "value": "1px solid {clr.secondary-light}", "type": "border" }
+				"1": { "value": "1px solid {clr.secondary-light}", "type": "border" },
+				"24": { "value": "24px solid {clr.secondary-light}", "type": "border" }
 			},
 			"mid": {
 				"1": { "value": "1px solid {clr.secondary-mid}", "type": "border" },
@@ -40,6 +41,12 @@
 		"3": { "value": "{sp.2}", "type": "borderRadius" },
 		"4": { "value": "{sp.3}", "type": "borderRadius" },
 		"5": { "value": "{sp.4}", "type": "borderRadius" },
-		"6": { "value": "{sp.5}", "type": "borderRadius" }
+		"6": { "value": "{sp.5}", "type": "borderRadius" },
+		"7": { "value": "{sp.6}", "type": "borderRadius" },
+		"8": { "value": "{sp.7}", "type": "borderRadius" },
+		"9": { "value": "{sp.8}", "type": "borderRadius" },
+		"10": { "value": "{sp.9}", "type": "borderRadius" },
+		"11": { "value": "{sp.10}", "type": "borderRadius" },
+		"12": { "value": "{sp.11}", "type": "borderRadius" }
 	}
 }

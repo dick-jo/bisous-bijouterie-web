@@ -11,24 +11,24 @@ h1 {
 }
 
 h2 {
-	font-size: var(--fs-2);
+	font-size: var(--fs-3);
 	font-weight: var(--fw-8);
 	color: var(--clr-secondary);
 }
 
 h2[data-size='small'] {
-	font-size: var(--fs-1);
+	font-size: var(--fs-2);
 }
 
 p {
-	font-size: var(--fs-2);
-	line-height: var(--fs-3);
+	font-size: var(--fs-3);
+	line-height: var(--fs-4);
 	font-weight: var(--fw-4);
 	color: var(--clr-secondary);
 }
 
 p[data-size='small'] {
-	font-size: var(--fs-1);
+	font-size: var(--fs-2);
 }
 
 a {
