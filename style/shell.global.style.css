@@ -380,6 +380,7 @@ section .content .row > .body {
 	justify-content: center;
 	height: 0;
 	overflow: visible;
+	transform: translateY(calc(var(--sp-6) * -1));
 }
 
 @media only screen and (max-width: 880px) {
